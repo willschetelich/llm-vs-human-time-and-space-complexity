@@ -1,0 +1,12 @@
+{
+  "question_id": 647,
+  "task_id": "palindromic-substrings",
+  "problem_description": "Given a string s, return the number of palindromic substrings in it.\nA string is a palindrome when it reads the same backward as forward.\nA substring is a contiguous sequence of characters within the string.\n\u00a0\nExample 1:\n\nInput: s = \"abc\"\nOutput: 3\nExplanation: Three palindromic strings: \"a\", \"b\", \"c\".\n\nExample 2:\n\nInput: s = \"aaa\"\nOutput: 6\nExplanation: Six palindromic strings: \"a\", \"a\", \"a\", \"aa\", \"aa\", \"aaa\".\n\n\u00a0\nConstraints:\n\n1 <= s.length <= 1000\ns consists of lowercase English letters.\n\n",
+  "starter_code": "class Solution:\n    def countSubstrings(self, s: str) -> int:\n        ",
+  "difficulty": "Medium",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Dynamic Programming"
+  ]
+}

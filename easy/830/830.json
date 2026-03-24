@@ -1,0 +1,10 @@
+{
+  "question_id": 830,
+  "task_id": "positions-of-large-groups",
+  "problem_description": "In a string s\u00a0of lowercase letters, these letters form consecutive groups of the same character.\nFor example, a string like s = \"abbxxxxzyy\" has the groups \"a\", \"bb\", \"xxxx\", \"z\", and\u00a0\"yy\".\nA group is identified by an interval\u00a0[start, end], where\u00a0start\u00a0and\u00a0end\u00a0denote the start and end\u00a0indices (inclusive) of the group. In the above example,\u00a0\"xxxx\"\u00a0has the interval\u00a0[3,6].\nA group is considered\u00a0large\u00a0if it has 3 or more characters.\nReturn\u00a0the intervals of every large group sorted in\u00a0increasing order by start index.\n\u00a0\nExample 1:\n\nInput: s = \"abbxxxxzzy\"\nOutput: [[3,6]]\nExplanation: \"xxxx\" is the only large group with start index 3 and end index 6.\n\nExample 2:\n\nInput: s = \"abc\"\nOutput: []\nExplanation: We have groups \"a\", \"b\", and \"c\", none of which are large groups.\n\nExample 3:\n\nInput: s = \"abcdddeeeeaabbbcd\"\nOutput: [[3,5],[6,9],[12,14]]\nExplanation: The large groups are \"ddd\", \"eeee\", and \"bbb\".\n\n\u00a0\nConstraints:\n\n1 <= s.length <= 1000\ns contains lowercase English letters only.\n\n",
+  "starter_code": "class Solution:\n    def largeGroupPositions(self, s: str) -> List[List[int]]:\n        ",
+  "difficulty": "Easy",
+  "tags": [
+    "String"
+  ]
+}

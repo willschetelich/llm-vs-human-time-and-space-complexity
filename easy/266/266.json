@@ -1,0 +1,12 @@
+{
+  "question_id": 266,
+  "task_id": "palindrome-permutation",
+  "problem_description": "Given a string s, return true if a permutation of the string could form a palindrome and false otherwise.\n\u00a0\nExample 1:\n\nInput: s = \"code\"\nOutput: false\n\nExample 2:\n\nInput: s = \"aab\"\nOutput: true\n\nExample 3:\n\nInput: s = \"carerac\"\nOutput: true\n\n\u00a0\nConstraints:\n\n1 <= s.length <= 5000\ns consists of only lowercase English letters.\n\n",
+  "starter_code": "class Solution:\n    def canPermutePalindrome(self, s: str) -> bool:\n        ",
+  "difficulty": "Easy",
+  "tags": [
+    "Bit Manipulation",
+    "Hash Table",
+    "String"
+  ]
+}

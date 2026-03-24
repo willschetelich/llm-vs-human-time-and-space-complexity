@@ -52,6 +52,7 @@ def prepare_claude(qid_list, difficulty):
         with open(f"{difficulty}/{qid}/{qid}-claude.py", "w") as f:
             f.write("")
 
+# WILL TODO - add a space for GPT
         
         
 

@@ -1,0 +1,13 @@
+{
+  "question_id": 844,
+  "task_id": "backspace-string-compare",
+  "problem_description": "Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.\nNote that after backspacing an empty text, the text will continue empty.\n\u00a0\nExample 1:\n\nInput: s = \"ab#c\", t = \"ad#c\"\nOutput: true\nExplanation: Both s and t become \"ac\".\n\nExample 2:\n\nInput: s = \"ab##\", t = \"c#d#\"\nOutput: true\nExplanation: Both s and t become \"\".\n\nExample 3:\n\nInput: s = \"a#c\", t = \"b\"\nOutput: false\nExplanation: s becomes \"c\" while t becomes \"b\".\n\n\u00a0\nConstraints:\n\n1 <= s.length, t.length <= 200\ns and t only contain lowercase letters and '#' characters.\n\n\u00a0\nFollow up: Can you solve it in O(n) time and O(1) space?\n",
+  "starter_code": "class Solution:\n    def backspaceCompare(self, s: str, t: str) -> bool:\n        ",
+  "difficulty": "Easy",
+  "tags": [
+    "Stack",
+    "Two Pointers",
+    "String",
+    "Simulation"
+  ]
+}

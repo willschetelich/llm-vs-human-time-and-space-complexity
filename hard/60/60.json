@@ -1,0 +1,11 @@
+{
+  "question_id": 60,
+  "task_id": "permutation-sequence",
+  "problem_description": "The set [1, 2, 3, ...,\u00a0n] contains a total of n! unique permutations.\nBy listing and labeling all of the permutations in order, we get the following sequence for n = 3:\n\n\"123\"\n\"132\"\n\"213\"\n\"231\"\n\"312\"\n\"321\"\n\nGiven n and k, return the kth permutation sequence.\n\u00a0\nExample 1:\nInput: n = 3, k = 3\nOutput: \"213\"\nExample 2:\nInput: n = 4, k = 9\nOutput: \"2314\"\nExample 3:\nInput: n = 3, k = 1\nOutput: \"123\"\n\n\u00a0\nConstraints:\n\n1 <= n <= 9\n1 <= k <= n!\n\n",
+  "starter_code": "class Solution:\n    def getPermutation(self, n: int, k: int) -> str:\n        ",
+  "difficulty": "Hard",
+  "tags": [
+    "Recursion",
+    "Math"
+  ]
+}
