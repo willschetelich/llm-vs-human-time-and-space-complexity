@@ -1,0 +1,10 @@
+{
+  "question_id": 1108,
+  "task_id": "defanging-an-ip-address",
+  "problem_description": "Given a valid (IPv4) IP address, return a defanged version of that IP address.\\r\n\\r\nA defanged\u00a0IP address\u00a0replaces every period \".\" with \"[.]\".\\r\n\\r\n\u00a0\\r\nExample 1:\\r\nInput: address = \"1.1.1.1\"\\r\nOutput: \"1[.]1[.]1[.]1\"\\r\nExample 2:\\r\nInput: address = \"255.100.50.0\"\\r\nOutput: \"255[.]100[.]50[.]0\"\\r\n\\r\n\u00a0\\r\nConstraints:\\r\n\\r\n\\r\n\tThe given address is a valid IPv4 address.\\r\n",
+  "starter_code": "class Solution:\n    def defangIPaddr(self, address: str) -> str:\n        ",
+  "difficulty": "Easy",
+  "tags": [
+    "String"
+  ]
+}

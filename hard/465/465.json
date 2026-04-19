@@ -1,0 +1,14 @@
+{
+  "question_id": 465,
+  "task_id": "optimal-account-balancing",
+  "problem_description": "You are given an array of transactions transactions where transactions[i] = [fromi, toi, amounti] indicates that the person with ID = fromi gave amounti $ to the person with ID = toi.\nReturn the minimum number of transactions required to settle the debt.\n\u00a0\nExample 1:\n\nInput: transactions = [[0,1,10],[2,0,5]]\nOutput: 2\nExplanation:\nPerson #0 gave person #1 $10.\nPerson #2 gave person #0 $5.\nTwo transactions are needed. One way to settle the debt is person #1 pays person #0 and #2 $5 each.\n\nExample 2:\n\nInput: transactions = [[0,1,10],[1,0,1],[1,2,5],[2,0,5]]\nOutput: 1\nExplanation:\nPerson #0 gave person #1 $10.\nPerson #1 gave person #0 $1.\nPerson #1 gave person #2 $5.\nPerson #2 gave person #0 $5.\nTherefore, person #1 only need to give person #0 $4, and all debt is settled.\n\n\u00a0\nConstraints:\n\n1 <= transactions.length <= 8\ntransactions[i].length == 3\n0 <= fromi, toi < 12\nfromi != toi\n1 <= amounti <= 100\n\n",
+  "starter_code": "class Solution:\n    def minTransfers(self, transactions: List[List[int]]) -> int:\n        ",
+  "difficulty": "Hard",
+  "tags": [
+    "Bit Manipulation",
+    "Array",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bitmask"
+  ]
+}

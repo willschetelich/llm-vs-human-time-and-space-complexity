@@ -1,0 +1,602 @@
+{
+  "easy": [
+    {
+      "question_id": "1480",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/1480.RunningSumof1dArray(ListComprehension).py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1119",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/1119.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "844",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/844_Backspace_String_Compare.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "2899",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/last-visited-integers.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1598",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/1598.CrawlerLogFolder.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "389",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/389.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "242",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/242_Valid_Anagram.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "897",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/increasing-order-search-tree.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "832",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/832.FlippinganImage(reverse).py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "496",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/496.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "100",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/100_Same_Tree.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "2094",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/finding-3-digit-even-numbers.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "645",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/645.SetMismatch.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "804",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/804.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "717",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/717_1-bit_and_2-bit_Characters.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "830",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/positions-of-large-groups.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1108",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/1108.DefanginganIPAddress(join).py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "944",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/944.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "263",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/263_Ugly_Number.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "2418",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/sort-the-people.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1790",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/1790.CheckifOneStringSwapCanMakeStringsEqual.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "434",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/434.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "509",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/509_Fibonacci_Number.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1863",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/sum-of-all-subset-xor-totals.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1403",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/1403.MinimumSubsequenceinNon-IncreasingOrder.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "733",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/733.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "541",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/541_Reverse_String_II.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1176",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/diet-plan-performance.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "999",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/999.AvailableCapturesforRook.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "762",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/762.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "266",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/266_Palindrome_Permutation.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "884",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/uncommon-words-from-two-sentences.py",
+      "difficulty": "Easy"
+    },
+    {
+      "question_id": "1103",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/1103.DistributeCandiestoPeople.py",
+      "difficulty": "Easy"
+    }
+  ],
+  "medium": [
+    {
+      "question_id": "167",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/167.TwoSumII-Inputarrayissorted.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "2001",
+      "author": "fisher",
+      "file": "repos/fisher/python3/2001.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "1008",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/1008.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "59",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/059_Spiral_Matrix_II.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "2280",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/minimum-lines-to-represent-a-line-chart.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "107",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/107.BinaryTreeLevelOrderTraversalII.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "1059",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/1059.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "751",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/751_IP_to_CIDR.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "3030",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/find-the-grid-of-region-average.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "204",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/204.CountPrimes.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "109",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/109.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "47",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/047_Permutations_II.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "2563",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/count-the-number-of-fair-pairs.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "538",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/538.ConvertBSTtoGreaterTree.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "298",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/298.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "18",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/018_4Sum.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "2211",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/count-collisions-on-a-road.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "811",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/811.SubdomainVisitCount.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "756",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/756.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "351",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/351_Android_Unlock_Patterns.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "2731",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/movement-of-robots.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "299",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/299.BullsandCows.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "915",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/915.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "31",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/031_Next_Permutation.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "616",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/add-bold-tag-in-string.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "198",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/198.HouseRobber.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "647",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/647.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "150",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/150_Evaluate_Reverse_Polish_Notation.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "2018",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/check-if-word-can-be-placed-in-crossword.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "665",
+      "author": "yuri",
+      "file": "repos/yuri/Easy/665.Non-decreasingArray.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "525",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/525.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "264",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/264_Ugly_Number_II.py",
+      "difficulty": "Medium"
+    },
+    {
+      "question_id": "1367",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/linked-list-in-binary-tree.py",
+      "difficulty": "Medium"
+    }
+  ],
+  "hard": [
+    {
+      "question_id": "1463",
+      "author": "yuri",
+      "file": "repos/yuri/Hard/1463.CherryPickupII.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "587",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/587.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "127",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/127_Word_Ladder.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "3219",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/minimum-cost-for-cutting-cake-ii.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "980",
+      "author": "yuri",
+      "file": "repos/yuri/Hard/980.UniquePathsIII.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "465",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/465.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "68",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/068_Text_Justification.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "882",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/reachable-nodes-in-subdivided-graph.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "25",
+      "author": "yuri",
+      "file": "repos/yuri/Hard/25.ReverseNodesink-Group.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "60",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/60.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "42",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/042_Trapping_Rain_Water.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "2281",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/sum-of-total-strength-of-wizards.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "1345",
+      "author": "yuri",
+      "file": "repos/yuri/Hard/1345.JumpGameIV.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "410",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/410.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "87",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/087_Scramble_String.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "3241",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/time-taken-to-mark-all-nodes.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "154",
+      "author": "yuri",
+      "file": "repos/yuri/Hard/154.FindMinimuminRotatedSortedArrayII.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "772",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/772.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "149",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/149_Max_Points_on_a_Line.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "1335",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/minimum-difficulty-of-a-job-schedule.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "952",
+      "author": "yuri",
+      "file": "repos/yuri/Hard/952.LargestComponentSizebyCommonFactor.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "871",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/871.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "32",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/032_Longest_Valid_Parentheses.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "1553",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/minimum-number-of-days-to-eat-n-oranges.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "123",
+      "author": "yuri",
+      "file": "repos/yuri/Hard/123.BestTimetoBuyandSellStockIII.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "632",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/632.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "51",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/051_N-Queens.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "2361",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/minimum-costs-using-the-train-line.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "458",
+      "author": "yuri",
+      "file": "repos/yuri/Hard/458.PoorPigs.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "960",
+      "author": "cnkyrpsgl",
+      "file": "repos/cnkyrpsgl/solutions/python3/960.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "85",
+      "author": "qiyuangong",
+      "file": "repos/qiyuangong/python/085_Maximal_Rectangle.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "1284",
+      "author": "kamyu",
+      "file": "repos/kamyu/Python/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix.py",
+      "difficulty": "Hard"
+    },
+    {
+      "question_id": "41",
+      "author": "yuri",
+      "file": "repos/yuri/Hard/41.FirstMissingPositive.py",
+      "difficulty": "Hard"
+    }
+  ]
+}

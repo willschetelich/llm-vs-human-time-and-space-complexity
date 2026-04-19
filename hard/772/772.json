@@ -1,0 +1,13 @@
+{
+  "question_id": 772,
+  "task_id": "basic-calculator-iii",
+  "problem_description": "Implement a basic calculator to evaluate a simple expression string.\nThe expression string contains only non-negative integers, '+', '-', '*', '/' operators, and open '(' and closing parentheses ')'. The integer division should truncate toward zero.\nYou may assume that the given expression is always valid. All intermediate results will be in the range of [-231, 231 - 1].\nNote: You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as eval().\n\u00a0\nExample 1:\n\nInput: s = \"1+1\"\nOutput: 2\n\nExample 2:\n\nInput: s = \"6-4/2\"\nOutput: 4\n\nExample 3:\n\nInput: s = \"2*(5+5*2)/3+(6/2+8)\"\nOutput: 21\n\n\u00a0\nConstraints:\n\n1 <= s <= 104\ns consists of digits, '+', '-', '*', '/', '(',\u00a0and\u00a0')'.\ns is a valid expression.\n\n",
+  "starter_code": "class Solution:\n    def calculate(self, s: str) -> int:\n        ",
+  "difficulty": "Hard",
+  "tags": [
+    "Stack",
+    "Recursion",
+    "Math",
+    "String"
+  ]
+}

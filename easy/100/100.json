@@ -1,0 +1,13 @@
+{
+  "question_id": 100,
+  "task_id": "same-tree",
+  "problem_description": "Given the roots of two binary trees p and q, write a function to check if they are the same or not.\nTwo binary trees are considered the same if they are structurally identical, and the nodes have the same value.\n\u00a0\nExample 1:\n\n\nInput: p = [1,2,3], q = [1,2,3]\nOutput: true\n\nExample 2:\n\n\nInput: p = [1,2], q = [1,null,2]\nOutput: false\n\nExample 3:\n\n\nInput: p = [1,2,1], q = [1,1,2]\nOutput: false\n\n\u00a0\nConstraints:\n\nThe number of nodes in both trees is in the range [0, 100].\n-104 <= Node.val <= 104\n\n",
+  "starter_code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:\n        ",
+  "difficulty": "Easy",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ]
+}

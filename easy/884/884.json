@@ -1,0 +1,12 @@
+{
+  "question_id": 884,
+  "task_id": "uncommon-words-from-two-sentences",
+  "problem_description": "A sentence is a string of single-space separated words where each word consists only of lowercase letters.\nA word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.\nGiven two sentences s1 and s2, return a list of all the uncommon words. You may return the answer in any order.\n\u00a0\nExample 1:\n\nInput: s1 = \"this apple is sweet\", s2 = \"this apple is sour\"\nOutput: [\"sweet\",\"sour\"]\nExplanation:\nThe word \"sweet\" appears only in s1, while the word \"sour\" appears only in s2.\n\nExample 2:\n\nInput: s1 = \"apple apple\", s2 = \"banana\"\nOutput: [\"banana\"]\n\n\u00a0\nConstraints:\n\n1 <= s1.length, s2.length <= 200\ns1 and s2 consist of lowercase English letters and spaces.\ns1 and s2 do not have leading or trailing spaces.\nAll the words in s1 and s2 are separated by a single space.\n\n",
+  "starter_code": "class Solution:\n    def uncommonFromSentences(self, s1: str, s2: str) -> List[str]:\n        ",
+  "difficulty": "Easy",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ]
+}

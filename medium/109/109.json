@@ -1,0 +1,14 @@
+{
+  "question_id": 109,
+  "task_id": "convert-sorted-list-to-binary-search-tree",
+  "problem_description": "Given the head of a singly linked list where elements are sorted in ascending order, convert it to a height-balanced binary search tree.\n\u00a0\nExample 1:\n\n\nInput: head = [-10,-3,0,5,9]\nOutput: [0,-3,9,-10,null,5]\nExplanation: One possible answer is [0,-3,9,-10,null,5], which represents the shown height balanced BST.\n\nExample 2:\n\nInput: head = []\nOutput: []\n\n\u00a0\nConstraints:\n\nThe number of nodes in head is in the range [0, 2 * 104].\n-105 <= Node.val <= 105\n\n",
+  "starter_code": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\n# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def sortedListToBST(self, head: Optional[ListNode]) -> Optional[TreeNode]:\n        ",
+  "difficulty": "Medium",
+  "tags": [
+    "Tree",
+    "Binary Search Tree",
+    "Linked List",
+    "Divide and Conquer",
+    "Binary Tree"
+  ]
+}

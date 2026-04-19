@@ -1,0 +1,13 @@
+{
+  "question_id": 3241,
+  "task_id": "time-taken-to-mark-all-nodes",
+  "problem_description": "There exists an undirected tree with n nodes numbered 0 to n - 1. You are given a 2D integer array edges of length n - 1, where edges[i] = [ui, vi] indicates that there is an edge between nodes ui and vi in the tree.\nInitially, all nodes are unmarked. For each node i:\n\nIf i is odd, the node will get marked at time x if there is at least one node adjacent to it which was marked at time x - 1.\nIf i is even, the node will get marked at time x if there is at least one node adjacent to it which was marked at time x - 2.\n\nReturn an array times where times[i] is the time when all nodes get marked in the tree, if you mark node i at time t = 0.\nNote that the answer for each times[i] is independent, i.e. when you mark node i all other nodes are unmarked.\n\u00a0\nExample 1:\n\nInput: edges = [[0,1],[0,2]]\nOutput: [2,4,3]\nExplanation:\n\n\nFor i = 0:\n\n\t\nNode 1 is marked at t = 1, and Node 2 at t = 2.\n\n\nFor i = 1:\n\t\nNode 0 is marked at t = 2, and Node 2 at t = 4.\n\n\nFor i = 2:\n\t\nNode 0 is marked at t = 2, and Node 1 at t = 3.\n\n\n\n\nExample 2:\n\nInput: edges = [[0,1]]\nOutput: [1,2]\nExplanation:\n\n\nFor i = 0:\n\n\t\nNode 1 is marked at t = 1.\n\n\nFor i = 1:\n\t\nNode 0 is marked at t = 2.\n\n\n\n\nExample 3:\n\nInput: edges = [[2,4],[0,1],[2,3],[0,2]]\nOutput: [4,6,3,5,5]\nExplanation:\n\n\n\u00a0\nConstraints:\n\n2 <= n <= 105\nedges.length == n - 1\nedges[i].length == 2\n0 <= edges[i][0], edges[i][1] <= n - 1\nThe input is generated such that edges represents a valid tree.\n\n",
+  "starter_code": "class Solution:\n    def timeTaken(self, edges: List[List[int]]) -> List[int]:\n        ",
+  "difficulty": "Hard",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Graph",
+    "Dynamic Programming"
+  ]
+}
