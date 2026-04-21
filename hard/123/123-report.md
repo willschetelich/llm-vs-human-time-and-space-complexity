@@ -1,0 +1,16 @@
+qid: 123
+
+LLM code:
+Time: O(n) according to Claude
+Space: O(1) according to Claude
+
+Human code:
+Time: O(n) according to Claude
+Space: O(1) according to Claude
+
+big_o time (LLM): O(n)
+big_o time (Human): O(n)
+
+big-o and claude Agree
+
+Superior algorithm: Same

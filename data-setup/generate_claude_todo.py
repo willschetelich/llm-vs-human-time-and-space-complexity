@@ -5,8 +5,7 @@ def main():
     with open("triaged.json", "r") as f:
         result = json.load(f)
 
-    ### generate a list of all the question_ids
-
+    ### generate a list of all the HUMAN question_ids
     all_easy_question_ids = generate_qid_list(result, "easy")
     all_medium_question_ids = generate_qid_list(result, "medium")
     all_hard_question_ids = generate_qid_list(result, "hard")
@@ -31,11 +30,12 @@ def generate_qid_list(result, difficulty):
     return id_list
 
 
-def prepare_claude(qid_list, difficulty):
+
+def prepare_claude(human_triaged_qid_list, difficulty): # qid_list is triaged.json list
     with open("output.json", "r") as f:
         big_json = json.load(f)
 
-    for qid in qid_list:
+    for qid in human_triaged_qid_list:
         for p in big_json:
             if qid == str(p["question_id"]):
                 problem = p
@@ -49,6 +49,7 @@ def prepare_claude(qid_list, difficulty):
         with open(f"{difficulty}/{qid}/{qid}.json", "w") as f:
             json.dump(problem, f, indent=2)
 
+        # while I'm at it, create space for claude
         with open(f"{difficulty}/{qid}/{qid}-claude.py", "w") as f:
             f.write("")
 

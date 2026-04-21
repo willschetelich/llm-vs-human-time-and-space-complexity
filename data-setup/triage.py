@@ -13,17 +13,17 @@ def main():
 
     found = []
 
-    with open("output.json", "r") as f:
-        result = json.load(f)
+    with open("output.json", "r") as f: # openleetcode dataset
+        leetcode_dataset = json.load(f) # as a list of dicts
 
-    slug_to_id = {}
-    for problem in result:
+    slug_to_id = {} # generates a dict of slug to id
+    for problem in leetcode_dataset:
         slug = problem["task_id"]
         qid = problem["question_id"]
         slug_to_id[slug] = str(qid)
 
-    id_to_difficulty = {}
-    for problem in result:
+    id_to_difficulty = {} # generates a dict of id to difficulty
+    for problem in leetcode_dataset:
         difficulty = problem["difficulty"]
         qid = problem["question_id"]
         id_to_difficulty[str(qid)] = difficulty
@@ -31,11 +31,11 @@ def main():
 
 
     # populate found with the question id of every .py file
-    for author, path in repo_paths.items():
-        for root, dirs, files in os.walk(path):
+    for author, path in repo_paths.items(): # turns repo_paths into list of tuples
+        for root, dirs, files in os.walk(path): # os.walk yields current_dir, subdirs, files_in_dir
             for filename in files:
                 if filename.endswith(".py"):
-                    qid = extract_id(filename)
+                    qid = extract_id(filename) # call function to get filename
                 
                     if qid is not None:
                         found.append({
@@ -44,7 +44,7 @@ def main():
                             "file": os.path.join(root, filename)
                         })
                     else:
-                        stem = filename.replace(".py", "").lower().replace("_","-")
+                        stem = filename.replace(".py", "").lower().replace("_","-") # unify with leetcode_dataset
                         qid = slug_to_id.get(stem)
                         if qid is not None:
                             found.append({
@@ -56,7 +56,7 @@ def main():
     # triage found to only include files in output.json
     for problem in found:
         human_qid = problem["question_id"]
-        problem["difficulty"] = id_to_difficulty.get(human_qid)
+        problem["difficulty"] = id_to_difficulty.get(human_qid) # get can return None, so it gets filtered here. Errorsafe way to index into a dict
 
     buckets = {
         "Easy": {"yuri": [], "fisher": [], "cnkyrpsgl": [], "qiyuangong": [], "kamyu": []},
@@ -69,16 +69,15 @@ def main():
         difficulty = problem.get("difficulty")
         author = problem["author"]
         if difficulty in buckets:
-            buckets[difficulty][author].append(problem)
+            buckets[difficulty][author].append(problem) # append the dict holding id,author,file,difficulty
 
-    for difficulty, authors in buckets.items():
-        print(difficulty)
-        for author, problems in authors.items():
-            print(f"{author}: {len(problems)} problems")
+   # for difficulty, authors in buckets.items(): 
+    #    print(difficulty)
+     #   for author, problems in authors.items():
+      #      print(f"{author}: {len(problems)} problems")
 
 
     # round robin!
-    
     triaged_easy = round_robin(buckets["Easy"])
     triaged_medium = round_robin(buckets["Medium"])
     triaged_hard = round_robin(buckets["Hard"])
@@ -91,6 +90,8 @@ def main():
 
     with open("triaged.json", "w") as f:
         json.dump(final, f, indent=2)
+
+
 ### now, triage round robin
 
     
@@ -105,9 +106,9 @@ def clone_repos():
     ("kamyu", "https://github.com/kamyu104/LeetCode-Solutions"),
     ]
 
-    os.makedirs("repos", exist_ok=True)
+    os.makedirs("repos", exist_ok=True) # exist_ok=True just doesn't throw an error if the dir already exists
 
-    for author, url in repos:
+    for author, url in repos: # list of tuples is 0, 1 as author, url
         dest = f"repos/{author}"
         if not os.path.exists(dest):
             subprocess.run(["git", "clone", "--depth=1", url, dest])
@@ -118,14 +119,14 @@ def clone_repos():
 
 def define_repo_paths():
     repo_paths = {}
-    for author in os.listdir("repos"):
-        path = f"repos/{author}"
+    for author in os.listdir("repos"): # indexes as a list of strings
+        path = f"repos/{author}" # string of the dir
         repo_paths[author] = path
 
     return repo_paths
 
 def extract_id(filename):
-    # goal - isolate just the question_id in the filename
+    # isolate just the question_id in the filename
     stem = filename.replace(".py", "") # cut the .py
 
     digits = ""
@@ -147,7 +148,7 @@ def round_robin(difficulty_dict):
     seen_ids = set()
 
     while len(result) < 33:
-        for author, problems in difficulty_dict.items():
+        for author, problems in difficulty_dict.items(): # problems is a list of dicts, entries of problems
             if len(result) >= 33:
                 break
             while len(problems) > 0:

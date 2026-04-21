@@ -2,7 +2,7 @@ import shutil
 import os
 import json
 
-with open("triaged.json", "r") as f:
+with open("triaged.json", "r") as f: # load organized human files
     result = json.load(f)
 
 for difficulty in result:
@@ -13,7 +13,7 @@ for difficulty in result:
         dest_dir = f"{difficulty}/{qid}"
 
         os.makedirs(dest_dir, exist_ok=True)
-        shutil.copy(src, f"{dest_dir}/{difficulty}_{qid}_{author}.py")
+        shutil.copy(src, f"{dest_dir}/{difficulty}-{qid}-{author}.py")
 
         
 
